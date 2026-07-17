@@ -1,7 +1,7 @@
 import app from "./app";
 
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 
 app.listen(PORT, () => {
-  console.log(`🚀 QuizNova Backend is running on port ${PORT}`);
+  console.log(`🚀 QuizNova Backend running at http://localhost:${PORT}`);
 });
